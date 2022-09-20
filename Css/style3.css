@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+header{
+    display: flex;
+    background-color:  #FFC107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    background: #FFA000;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 29px 5px 29px;
+    color:#FDFDFD;
+}
+
+#banner-home{
+    background: linear-gradient(0deg, rgba(255, 160, 0, 0.3), rgba(255, 160, 0, 0.3)), url(../img/inicio.png);
+    background-size: 100% 405px;
+    width: 100%;
+    height: 400px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 50px;
+}
+#p-home{
+    position: absolute;
+    width: 370px;
+    left: 969px;
+    top: 201px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFA000;
+    margin: 50px auto;
+}
+
+section {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.receitas{  
+    margin-bottom: 4rem;
+}
+.receitas-inicio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 31%;
+}
+.risoto{ 
+    height: 345px;
+}
+.img-card-home{
+    border-radius: 0px;
+    margin-bottom: 0.1rem;
+}
+
+section article img{
+    margin: 50px;
+    width: 350px;
+}
+
+section article button{
+    background: #176902;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+    margin-bottom: 0.5rem;
+
+}
+    
+.img-fim{
+    background: linear-gradient(0deg, rgba(255, 160, 0, 0.3), rgba(255, 160, 0, 0.3)), url(../img/image\ 2.png) no-repeat;
+    background-size: 100% 700px;
+    width: 100%;
+    height: 700px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 50px;
+}
+h3{ 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    padding-left: 5rem;
+    padding-top: 7rem;
+}
+ .img-fim2{  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    width: 420px;
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+
+ 
+footer{
+    
+    width: 1440px;
+    height: 119px;
+    left: 0px;
+    top: 2397px;
+    background: #FFC107;
+    display: flex;
+    align-items: center;
+}
+p{  
+    color: #FDFDFD;
+    font-style: normal;
+    font-size: 18px;
+}
+
+
+
+
+
+
+

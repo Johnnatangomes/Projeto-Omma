@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+body{
+    background: #ffffff;
+}
+
+
+header{
+    display: flex;
+    background-color:  #FFC107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#img-banner{
+    padding: 15px 0px 15px 0px;
+}
+nav {
+    display: flex;
+    background: #FFA000;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 29px 5px 29px;
+    color:#FDFDFD;
+}
+#banner{
+    background-image: url(../img/manda-um-alo.png);
+    position: absolute;
+    width: 1440px;
+    height: 405px;
+}
+section h4{ 
+    color: #FDFDFD;
+    font-weight: 700px;
+    font-size: 70px;
+    width: 419px;
+    margin: 50px 0px 0px 120px;
+}
+#contato{ 
+    position: absolute;
+    width: 350px;
+    height: 771px;
+    left: 127px;
+    top: 667px;
+    
+
+}
+section form{
+    position: absolute;
+    width: 820px;
+    height: 766px;
+    left: 492px;
+    top: 672px;
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    border-radius: 20px;
+}
+
+h2{
+    color: #FFC107;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    margin: 50px 0px 80px 50px;
+}
+
+input{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555D;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    width: 750px;
+    padding: 15px 30px 15px 30px;
+    margin: 20px 0px 20px 15px;
+}
+textarea{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555D;
+    border: 1px solid #FFA000;
+    border-radius: 5px;
+    width: 750px;
+    padding: 15px 30px 200px 30px;
+    margin: 20px 0px 20px 15px;
+    resize: none;
+}
+button{
+    font-size: 19px;
+    color: #FFFFFF;
+    background: #FFC107;
+    border-radius: 50px;
+    width: 170px;
+    align-self: flex-start;
+    border-color: #FFC107;
+    margin: -1px 0px 0px 16px;
+    
+}
+
+#img-footer{
+    padding: 15px 38px 15px 5px;
+}
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 119px;
+    left: 0px;
+    top: 1571px;
+    background-color:  #FFC107;
+    display: flex;
+    align-items:center
+}
+footer p{
+    color: #FDFDFD;
+    font-weight: 700;
+    font-size: 18px;
+}
